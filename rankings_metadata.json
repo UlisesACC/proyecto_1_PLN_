@@ -1,0 +1,7 @@
+{
+  "fingerprint": "00b0eee537021cec70567e00862c1da3a5906f7eae4d62936d1806790869656f",
+  "content": "review",
+  "representation": "tfidf",
+  "ngram": "unigram",
+  "queries_hash": "0ed25f5a0a2bf1bee5f81464ed340e4aa48e31d7fef8bc71f0e855d247c31a08"
+}
