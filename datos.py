@@ -28,11 +28,11 @@ GAMES = {
     1086940: "Baldur's Gate 3",
     1384160: "Guilty Gear -Strive-",
 }
-REVIEWS_PER_GAME = 80          # 6 * 80 = 480 (intervalo recomendado: 300-500).
+REVIEWS_PER_GAME = 100         
 LANGUAGE = "english"
-MIN_WORDS = 7                 # Evita reseñas sin contexto para búsquedas.
+MIN_WORDS = 5                 
 MIN_EN_CONFIDENCE = 0.80
-MAX_PAGES_PER_GAME = 30       # Evita ciclos interminables en juegos sin resultados.
+MAX_PAGES_PER_GAME = 30       
 REQUEST_DELAY = 2
 
 OUTPUT_FILE = Path("opinions_raw_corpus.tsv")
