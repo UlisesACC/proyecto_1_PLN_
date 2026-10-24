@@ -50,14 +50,12 @@ def read_corpus():
 
 
 def corpus_fingerprint(df):
-    # lineterminator fijo: la huella debe ser igual en Windows, Linux y macOS.
     values = df[["doc_id", "review_id", "review_norm", "item_review_norm"]].to_csv(
         index=False, sep="\t", lineterminator="\n")
     return hashlib.sha256(values.encode("utf-8")).hexdigest()
 
 
 def queries_hash():
-    # Se ignoran los saltos de línea \r\n que Git o Excel pueden introducir en Windows.
     return hashlib.sha256(QUERIES.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
@@ -69,24 +67,30 @@ def build():
     df = read_corpus()
     DIR.mkdir(exist_ok=True)
     fingerprint = corpus_fingerprint(df)
-    for content, column in [("review", "review_norm"), ("item_review", "item_review_norm")]:
-        for ngram, ngram_range in [("unigram", (1, 1)), ("bigram", (2, 2))]:
-            for representation in ["frequency", "binary", "tfidf"]:
-                kwargs = {"ngram_range": ngram_range, "token_pattern": r"(?u)\b\w+\b", "lowercase": False}
-                if representation == "tfidf":
-                    vectorizer = TfidfVectorizer(**kwargs)
-                else:
-                    vectorizer = CountVectorizer(binary=(representation == "binary"), **kwargs)
-                matrix = vectorizer.fit_transform(df[column].tolist())
-                output = model_path(content, representation, ngram)
-                with output.open("wb") as stream:
-                    pickle.dump({
-                        "vectorizer": vectorizer, "matrix": matrix,
-                        "doc_ids": df["doc_id"].tolist(), "fingerprint": fingerprint,
-                        "content": content, "representation": representation, "ngram": ngram
-                    }, stream)
-                print(f"{output}: {matrix.shape[0]} documentos, {matrix.shape[1]} términos")
 
+    for content, column in [("review", "review_norm"), ("item_review", "item_review_norm")]:
+        for ngram, rango in [("unigram", (1, 1)), ("bigram", (2, 2))]:
+            for representation in ["frequency", "binary", "tfidf"]:
+                opciones = {"ngram_range": rango, "token_pattern": r"(?u)\b\w+\b", "lowercase": False}
+                if representation == "tfidf":
+                    vectorizer = TfidfVectorizer(**opciones)
+                else:
+                    vectorizer = CountVectorizer(binary=representation == "binary", **opciones)
+
+                matrix = vectorizer.fit_transform(df[column])
+                path = model_path(content, representation, ngram)
+                datos = {
+                    "vectorizer": vectorizer,
+                    "matrix": matrix,
+                    "doc_ids": df["doc_id"].tolist(),
+                    "fingerprint": fingerprint,
+                    "content": content,
+                    "representation": representation,
+                    "ngram": ngram,
+                }
+                with path.open("wb") as archivo:
+                    pickle.dump(datos, archivo)
+                print(f"{path}: {matrix.shape[0]} documentos, {matrix.shape[1]} términos")
 
 def load_model(df, content, representation, ngram):
     path = model_path(content, representation, ngram)
@@ -102,33 +106,37 @@ def load_model(df, content, representation, ngram):
 
 
 def retrieve(df, model, query, top=10, quiet=False):
-    normalized = normalizar_texto(query)
-    vector = model["vectorizer"].transform([normalized])
+    texto = normalizar_texto(query)
+    vector = model["vectorizer"].transform([texto])
     if vector.nnz == 0 and not quiet:
         print(f"Aviso: consulta sin términos en el vocabulario: {query!r}")
         print("La consulta no tiene coincidencias; los resultados tendrán puntuación 0.")
-    scores = cosine_similarity(vector, model["matrix"]).ravel()
-    ordered = np.argsort(-scores, kind="stable")[:top]
-    return pd.DataFrame({
-        "document_id": df.iloc[ordered]["doc_id"].tolist(),
-        "rank": np.arange(1, len(ordered) + 1),
-        "score": scores[ordered],
-        "item_name": df.iloc[ordered]["item_name"].tolist(),
-        "review": df.iloc[ordered]["review"].tolist(),
-    })
 
+    scores = cosine_similarity(vector, model["matrix"]).ravel()
+    indices = np.argsort(-scores, kind="stable")[:top]
+    seleccion = df.iloc[indices]
+    return pd.DataFrame({
+        "document_id": seleccion["doc_id"].tolist(),
+        "rank": range(1, len(indices) + 1),
+        "score": scores[indices],
+        "item_name": seleccion["item_name"].tolist(),
+        "review": seleccion["review"].tolist(),
+    })
 
 def init_queries():
     if QUERIES.exists():
         print(f"{QUERIES} ya existe; no se sobrescribió.")
         return
-    df = pd.DataFrame([
-        {"query_id": f"Q{i:02d}", "difficulty_level": level, "query": q}
-        for i, (level, q) in enumerate(SUGGESTED, 1)
-    ])
-    df.to_csv(QUERIES, sep="\t", index=False)
-    print(f"Plantilla de 15 consultas creada: {QUERIES}. Revisa su pertinencia para tu corpus.")
 
+    filas = []
+    for numero, (nivel, consulta) in enumerate(SUGGESTED, 1):
+        filas.append({
+            "query_id": f"Q{numero:02d}",
+            "difficulty_level": nivel,
+            "query": consulta,
+        })
+    pd.DataFrame(filas).to_csv(QUERIES, sep="\t", index=False)
+    print(f"Plantilla de 15 consultas creada: {QUERIES}. Revisa su pertinencia para tu corpus.")
 
 def get_queries():
     if not QUERIES.exists():
@@ -236,40 +244,54 @@ def evaluate():
 
 
 def compute_metrics(queries, qrels, ranks):
-    """P@10, R@10, F1@10, RR y nDCG@10 por consulta (relevancia 1 y 2 cuentan como relevantes)."""
-    results = []
-    for _, q in queries.iterrows():
-        relevant = qrels[qrels["query_id"] == q["query_id"]]
-        if not 10 <= len(relevant) <= 15 or set(relevant["relevance"]) != {"1", "2"}:
-            raise ValueError(f"{q['query_id']} requiere 10-15 documentos relevantes (con 1 y 2).")
-        rel = dict(zip(relevant["document_id"], relevant["relevance"].astype(int)))
-        subset = ranks[ranks["query_id"] == q["query_id"]].copy()
-        subset["rank"] = subset["rank"].astype(int)
-        subset = subset.sort_values("rank")
-        if subset["rank"].tolist() != list(range(1, 11)):
-            raise ValueError(f"{q['query_id']} necesita rangos 1 a 10 sin repetir.")
-        grades = [rel.get(d, 0) for d in subset["document_id"]]
-        found = sum(g > 0 for g in grades)
-        p = found / 10
-        r = found / len(rel)
-        f1 = 2 * p * r / (p + r) if p + r else 0
-        rr = next((1 / i for i, grade in enumerate(grades, 1) if grade > 0), 0)
-        dcg = sum((2 ** g - 1) / np.log2(i + 1) for i, g in enumerate(grades, 1))
-        ideal = sorted(rel.values(), reverse=True)[:10]
-        idcg = sum((2 ** g - 1) / np.log2(i + 1) for i, g in enumerate(ideal, 1))
-        ndcg = dcg / idcg if idcg else 0
-        results.append({
-            "query_id": q["query_id"], "difficulty_level": q["difficulty_level"],
-            "precision@10": p, "recall@10": r, "f1@10": f1, "rr": rr, "ndcg@10": ndcg
-        })
-    return pd.DataFrame(results)
+    resultados = []
+    for _, consulta in queries.iterrows():
+        query_id = consulta["query_id"]
+        relevantes = qrels[qrels["query_id"] == query_id]
+        if not 10 <= len(relevantes) <= 15 or set(relevantes["relevance"]) != {"1", "2"}:
+            raise ValueError(f"{query_id} requiere 10-15 documentos relevantes (con 1 y 2).")
 
+        relevancias = dict(zip(relevantes["document_id"], relevantes["relevance"].astype(int)))
+        ranking = ranks[ranks["query_id"] == query_id].copy()
+        ranking["rank"] = ranking["rank"].astype(int)
+        ranking = ranking.sort_values("rank")
+        if ranking["rank"].tolist() != list(range(1, 11)):
+            raise ValueError(f"{query_id} necesita rangos 1 a 10 sin repetir.")
+
+        valores = [relevancias.get(doc, 0) for doc in ranking["document_id"]]
+        aciertos = sum(valor > 0 for valor in valores)
+        precision = aciertos / 10
+        recall = aciertos / len(relevantes)
+        f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0
+
+        rr = 0
+        for posicion, valor in enumerate(valores, 1):
+            if valor > 0:
+                rr = 1 / posicion
+                break
+
+        dcg = 0
+        for posicion, valor in enumerate(valores, 1):
+            dcg += (2 ** valor - 1) / np.log2(posicion + 1)
+
+        mejores = sorted(relevancias.values(), reverse=True)[:10]
+        idcg = 0
+        for posicion, valor in enumerate(mejores, 1):
+            idcg += (2 ** valor - 1) / np.log2(posicion + 1)
+        ndcg = dcg / idcg if idcg else 0
+
+        resultados.append({
+            "query_id": query_id,
+            "difficulty_level": consulta["difficulty_level"],
+            "precision@10": precision,
+            "recall@10": recall,
+            "f1@10": f1,
+            "rr": rr,
+            "ndcg@10": ndcg,
+        })
+    return pd.DataFrame(resultados)
 
 def benchmark():
-    """Ejecuta las 15 consultas con las 12 configuraciones y compara sus métricas.
-
-    No modifica rankings.tsv: guarda cada ranking en benchmark/ junto con la comparativa.
-    """
     queries = get_queries()
     corpus = read_corpus()
     if not QRELS.exists():
