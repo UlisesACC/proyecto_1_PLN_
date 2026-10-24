@@ -174,6 +174,16 @@ Genera `evaluacion_por_consulta.tsv` y `evaluacion_promedios.tsv`.
 
 Si muestra `Se requieren qrels.tsv (manual) y rankings.tsv (generado)`, **todavía falta alguno de esos archivos**: en general será `qrels.tsv`, que no se genera automáticamente.
 
+### Paso 9 — Comparar las 12 configuraciones (sección 9)
+
+```bash
+python recuperacion.py benchmark
+```
+
+**Qué hace:** ejecuta las 15 consultas con las 12 combinaciones de contenido, representación y n-gramas, y las evalúa contra el mismo `qrels.tsv`. No modifica `rankings.tsv`; guarda en `benchmark/` los 12 rankings, `comparativa_configuraciones.tsv` (promedios ordenados por nDCG@10) y `metricas_por_consulta_y_configuracion.tsv`.
+
+**Estado actual del benchmark:** `qrels.tsv` tiene 222 juicios (10–15 por consulta, con valores 1 y 2). `juicios_relevancia_completos.tsv` guarda todos los juicios positivos encontrados al revisar las 600 reseñas, incluidos los que no cupieron en el límite de 15. La consulta Q04 se cambió de "difficult boss fights" a "the game is too hard" porque el corpus no tenía suficientes reseñas sobre jefes. La huella del corpus ya no depende del sistema operativo; si `search`, `rank` o `benchmark` indican que el corpus cambió, basta con ejecutar una vez `python recuperacion.py build`.
+
 ## Resumen rápido (si ya hay corpus actualizado)
 
 ```bash
@@ -210,6 +220,8 @@ No es necesario compilar Python: los comandos anteriores **ejecutan** directamen
 | `rankings.tsv` | Top-10 para las 15 consultas |
 | `evaluacion_por_consulta.tsv` | Métricas individuales |
 | `evaluacion_promedios.tsv` | Métricas promedio |
+| `juicios_relevancia_completos.tsv` | Todos los juicios positivos (incluye los que no entraron a `qrels.tsv`) |
+| `benchmark/` | Rankings y métricas de las 12 configuraciones |
 
 ## Notas metodológicas
 

@@ -1,7 +1,7 @@
 {
-  "fingerprint": "00b0eee537021cec70567e00862c1da3a5906f7eae4d62936d1806790869656f",
+  "fingerprint": "451d434bdbdf40d42538506806a6cd3702ba4cebcc0cbf84062eba6dd53e2ea9",
   "content": "review",
   "representation": "tfidf",
   "ngram": "unigram",
-  "queries_hash": "0ed25f5a0a2bf1bee5f81464ed340e4aa48e31d7fef8bc71f0e855d247c31a08"
+  "queries_hash": "80c5e8e88110dfda59e94a35074bea237497f6296c3804384754fdc6a0b452ee"
 }
