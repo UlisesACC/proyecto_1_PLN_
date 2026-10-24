@@ -3,12 +3,10 @@ import hashlib
 import json
 import pickle
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
 from normalizacion import normalizar_texto
 
 CORPUS = Path("opinions_normalized_corpus.tsv")
@@ -50,8 +48,15 @@ def read_corpus():
 
 
 def corpus_fingerprint(df):
-    values = df[["doc_id", "review_id", "review_norm", "item_review_norm"]].to_csv(index=False, sep="\t")
+    # lineterminator fijo: la huella debe ser igual en Windows, Linux y macOS.
+    values = df[["doc_id", "review_id", "review_norm", "item_review_norm"]].to_csv(
+        index=False, sep="\t", lineterminator="\n")
     return hashlib.sha256(values.encode("utf-8")).hexdigest()
+
+
+def queries_hash():
+    # Se ignoran los saltos de línea \r\n que Git o Excel pueden introducir en Windows.
+    return hashlib.sha256(QUERIES.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def model_path(content, representation, ngram):
@@ -94,10 +99,10 @@ def load_model(df, content, representation, ngram):
     return model
 
 
-def retrieve(df, model, query, top=10):
+def retrieve(df, model, query, top=10, quiet=False):
     normalized = normalizar_texto(query)
     vector = model["vectorizer"].transform([normalized])
-    if vector.nnz == 0:
+    if vector.nnz == 0 and not quiet:
         print(f"Aviso: consulta sin términos en el vocabulario: {query!r}")
         print("La consulta no tiene coincidencias; los resultados tendrán puntuación 0.")
     scores = cosine_similarity(vector, model["matrix"]).ravel()
@@ -155,7 +160,7 @@ def run_queries(content, representation, ngram):
     metadata = {
         "fingerprint": corpus_fingerprint(df), "content": content,
         "representation": representation, "ngram": ngram,
-        "queries_hash": hashlib.sha256(QUERIES.read_bytes()).hexdigest()
+        "queries_hash": queries_hash()
     }
     Path("rankings_metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
     print(f"Guardado: {RANKINGS} ({len(rows)} resultados)")
@@ -195,7 +200,7 @@ def evaluate():
     metadata = json.loads(meta_path.read_text(encoding="utf-8"))
     if metadata["fingerprint"] != corpus_fingerprint(corpus):
         raise ValueError("El corpus difiere del usado para rankings.tsv.")
-    if metadata["queries_hash"] != hashlib.sha256(QUERIES.read_bytes()).hexdigest():
+    if metadata["queries_hash"] != queries_hash():
         raise ValueError("Cambiaste las consultas. Regenera rankings.tsv.")
     qrels = pd.read_csv(QRELS, sep="\t", dtype=str, keep_default_na=False)
     ranks = pd.read_csv(RANKINGS, sep="\t", dtype=str, keep_default_na=False)
@@ -216,6 +221,20 @@ def evaluate():
     query_ids = set(queries["query_id"])
     if set(qrels["query_id"]) != query_ids or set(ranks["query_id"]) != query_ids:
         raise ValueError("qrels y rankings deben contener exactamente los 15 query_id.")
+    report = compute_metrics(queries, qrels, ranks)
+    report.to_csv("evaluacion_por_consulta.tsv", sep="\t", index=False)
+    cols = ["precision@10", "recall@10", "f1@10", "rr", "ndcg@10"]
+    means = report[cols].mean().to_dict()
+    pd.DataFrame([{"queries": len(report), **means}]).rename(columns={"rr": "mrr"}).to_csv(
+        "evaluacion_promedios.tsv", sep="\t", index=False
+    )
+    print(f"Configuración evaluada: {metadata['content']} / {metadata['representation']} / {metadata['ngram']}")
+    print(report.to_string(index=False))
+    print("\nPromedios:", {("mrr" if k == "rr" else k): round(v, 4) for k, v in means.items()})
+
+
+def compute_metrics(queries, qrels, ranks):
+    """P@10, R@10, F1@10, RR y nDCG@10 por consulta (relevancia 1 y 2 cuentan como relevantes)."""
     results = []
     for _, q in queries.iterrows():
         relevant = qrels[qrels["query_id"] == q["query_id"]]
@@ -241,15 +260,48 @@ def evaluate():
             "query_id": q["query_id"], "difficulty_level": q["difficulty_level"],
             "precision@10": p, "recall@10": r, "f1@10": f1, "rr": rr, "ndcg@10": ndcg
         })
-    report = pd.DataFrame(results)
-    report.to_csv("evaluacion_por_consulta.tsv", sep="\t", index=False)
+    return pd.DataFrame(results)
+
+
+def benchmark():
+    """Ejecuta las 15 consultas con las 12 configuraciones y compara sus métricas.
+
+    No modifica rankings.tsv: guarda cada ranking en benchmark/ junto con la comparativa.
+    """
+    queries = get_queries()
+    corpus = read_corpus()
+    if not QRELS.exists():
+        raise FileNotFoundError("Se requiere qrels.tsv (manual) para correr el benchmark.")
+    qrels = pd.read_csv(QRELS, sep="\t", dtype=str, keep_default_na=False)
+    out_dir = Path("benchmark")
+    out_dir.mkdir(exist_ok=True)
     cols = ["precision@10", "recall@10", "f1@10", "rr", "ndcg@10"]
-    means = report[cols].mean().to_dict()
-    pd.DataFrame([{"queries": len(report), **means}]).rename(columns={"rr": "mrr"}).to_csv(
-        "evaluacion_promedios.tsv", sep="\t", index=False
-    )
-    print(report.to_string(index=False))
-    print("\nPromedios:", {("mrr" if k == "rr" else k): round(v, 4) for k, v in means.items()})
+    summary, per_query = [], []
+    for content in ["review", "item_review"]:
+        for representation in ["frequency", "binary", "tfidf"]:
+            for ngram in ["unigram", "bigram"]:
+                model = load_model(corpus, content, representation, ngram)
+                rows = []
+                for _, q in queries.iterrows():
+                    top = retrieve(corpus, model, q["query"], quiet=True)
+                    for _, hit in top.iterrows():
+                        rows.append({"query_id": q["query_id"], "document_id": hit["document_id"],
+                                     "rank": int(hit["rank"]), "score": float(hit["score"])})
+                ranks = pd.DataFrame(rows, columns=["query_id", "document_id", "rank", "score"])
+                name = f"{content}_{representation}_{ngram}"
+                ranks.to_csv(out_dir / f"rankings_{name}.tsv", sep="\t", index=False)
+                report = compute_metrics(queries, qrels, ranks.astype(str))
+                report.insert(0, "configuracion", name)
+                per_query.append(report)
+                means = report[cols].mean()
+                summary.append({"configuracion": name, "content": content,
+                                "representation": representation, "ngram": ngram,
+                                **{("mrr" if k == "rr" else k): v for k, v in means.items()}})
+    table = pd.DataFrame(summary).sort_values("ndcg@10", ascending=False)
+    table.to_csv(out_dir / "comparativa_configuraciones.tsv", sep="\t", index=False)
+    pd.concat(per_query).to_csv(out_dir / "metricas_por_consulta_y_configuracion.tsv", sep="\t", index=False)
+    print(table.drop(columns=["content", "representation", "ngram"]).round(4).to_string(index=False))
+    print(f"\nGuardado en {out_dir}/ (12 rankings, comparativa y métricas por consulta).")
 
 
 def main():
@@ -262,6 +314,7 @@ def main():
     sub.add_parser("rank")
     sub.add_parser("candidates")
     sub.add_parser("evaluate")
+    sub.add_parser("benchmark")
     for name in ("search", "rank", "candidates"):
         p = sub.choices[name]
         p.add_argument("--content", choices=["review", "item_review"], default="review")
@@ -283,6 +336,8 @@ def main():
         candidates(args.content, args.representation, args.ngram)
     elif args.command == "evaluate":
         evaluate()
+    elif args.command == "benchmark":
+        benchmark()
 
 
 if __name__ == "__main__":
