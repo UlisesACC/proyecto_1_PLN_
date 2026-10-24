@@ -223,9 +223,3 @@ No es necesario compilar Python: los comandos anteriores **ejecutan** directamen
 | `juicios_relevancia_completos.tsv` | Todos los juicios positivos (incluye los que no entraron a `qrels.tsv`) |
 | `benchmark/` | Rankings y métricas de las 12 configuraciones |
 
-## Notas metodológicas
-
-- La práctica recomienda **300–500 reseñas**. Si se mantienen 600 como reserva, indicar claramente cuántas se usan en los experimentos; **no cambiar el conjunto de documentos después de congelar el benchmark**.
-- El resultado de `search` no siempre será semánticamente relevante, incluso si contiene palabras de la consulta; ese comportamiento se mide con el benchmark.
-- No se debe construir el `qrels.tsv` únicamente copiando los diez primeros resultados y marcándolos relevantes.
-- El análisis posterior de errores y la presentación de resultados forman parte de otras secciones de la práctica.
