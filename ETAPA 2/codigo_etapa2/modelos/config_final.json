@@ -1,0 +1,24 @@
+{
+  "experiment_id": "C59",
+  "config": {
+    "normalizacion": "N1",
+    "negacion": true,
+    "representacion": "frecuencia",
+    "ngramas": [
+      1,
+      1
+    ],
+    "lexico": false,
+    "balanceo": false,
+    "modelo": "LinearSVC",
+    "hiper": {}
+  },
+  "descripcion": {
+    "normalizacion": "N1 +limpieza",
+    "representacion": "frecuencia unigramas",
+    "mejora_linguistica": "negación",
+    "desbalance": "ninguno",
+    "hiperparametros": "C=1.0"
+  },
+  "entrenado_con": "train+dev"
+}

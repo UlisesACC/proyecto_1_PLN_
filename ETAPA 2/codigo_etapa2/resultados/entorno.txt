@@ -1,0 +1,9 @@
+python=3.13.18
+scikit-learn=1.9.1
+nltk=3.10.4
+pandas=3.0.5
+numpy=2.5.3
+random_state=0
+particion=70/15/15 estratificada, shuffle=True
+ratings_vacios=0
+experimentos=66

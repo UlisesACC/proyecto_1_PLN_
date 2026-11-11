@@ -1,0 +1,5 @@
+split	negative	positive	total	% negative
+train	64	356	420	15.2
+dev	13	77	90	14.4
+test	14	76	90	15.6
+total	91	509	600	15.2

@@ -1,0 +1,4 @@
+clase	reseñas	% con al menos 1 palabra del léxico	promedio palabras positivas	promedio palabras negativas	% con negador
+negative	64	82.8	2.09	2.81	62.5
+positive	356	89.6	2.29	1.08	31.5
+todas	420	88.6	2.26	1.35	36.2

@@ -1,0 +1,13 @@
+model	experiment_id	enhancement	dev_macro_f1	difference_vs_baseline	dev_f1_negative	difference_f1_negative
+MultinomialNB	C03	baseline (sin mejoras)	0.6496	0.0	0.381	0.0
+MultinomialNB	C15	manejo de negación	0.6175	-0.0321	0.3158	-0.0652
+MultinomialNB	C16	léxico de opinión	0.6496	0.0	0.381	0.0
+MultinomialNB	C17	negación + léxico	0.6175	-0.0321	0.3158	-0.0652
+LogisticRegression	C24	baseline (sin mejoras)	0.7352	0.0	0.5263	0.0
+LogisticRegression	C37	manejo de negación	0.7531	0.0179	0.5556	0.0293
+LogisticRegression	C38	léxico de opinión	0.7352	0.0	0.5263	0.0
+LogisticRegression	C39	negación + léxico	0.7531	0.0179	0.5556	0.0293
+LinearSVC	C46	baseline (sin mejoras)	0.7574	0.0	0.5714	0.0
+LinearSVC	C59	manejo de negación	0.7941	0.0367	0.6316	0.0602
+LinearSVC	C60	léxico de opinión	0.7574	0.0	0.5714	0.0
+LinearSVC	C61	negación + léxico	0.7531	-0.0043	0.5556	-0.0158

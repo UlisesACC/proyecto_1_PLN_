@@ -1,0 +1,9 @@
+document_id	label	original	N2_sin_negacion	N2_con_negacion
+238219959	positive	its fun when youre not corwyn	fun youre not corwyn	fun youre not NEG_corwyn
+238219419	positive	yk id never cheat but people think i do and i just dont understand	yk id never cheat people think not understand	yk id never NEG_cheat NEG_people think not NEG_understand
+238219273	positive	calm game just so many cheaters sometimes trust factor is cooked right now but other than that cool game i guess its not CSGO though so	calm game many cheaters sometimes trust factor cooked right cool game guess not csgo though	calm game many cheaters sometimes trust factor cooked right cool game guess not NEG_csgo NEG_though
+238214463	negative	somehow one of the greatest fps of our time with no anti cheat and the greed of a corp like no other DJT	somehow one greatest fps time no anti cheat greed corp like no djt	somehow one greatest fps time no NEG_anti NEG_cheat greed corp like no NEG_djt
+238211400	positive	nice game there no cheating here	nice game no cheating	nice game no NEG_cheating
+238210503	positive	theres no cheaters from what i have seen	theres no cheaters seen	theres no NEG_cheaters seen
+238210125	negative	just not my kind of game.	not kind game	not NEG_kind game
+238206025	positive	Not as good as CS:S, or CS:GO, but third place still gets a medal!	not good cs cs go third place still gets medal	not NEG_good cs cs go third place still gets medal
