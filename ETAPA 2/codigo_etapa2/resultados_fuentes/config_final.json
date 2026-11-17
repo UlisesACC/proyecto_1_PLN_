@@ -1,0 +1,32 @@
+{
+  "experiment_id": "A071",
+  "config": {
+    "modelo": "LinearSVC",
+    "normalizacion": "N1",
+    "representacion": "frecuencia",
+    "ngramas": [
+      1,
+      1
+    ],
+    "mejoras": [
+      "negacion"
+    ],
+    "balanceo": "ninguno",
+    "hiperparametro": 1.0,
+    "svd": 0
+  },
+  "macro_f1_dev": 0.7940503432494279,
+  "descripcion": {
+    "normalizacion": "N1",
+    "representacion": "frecuencia (1, 1)",
+    "mejoras": "negacion",
+    "desbalance": "ninguno",
+    "hiperparametros": "{\"C\": 1.0}",
+    "svd": 0
+  },
+  "orden_clases": [
+    "negative",
+    "positive"
+  ],
+  "entrenado_con": "train+dev"
+}

@@ -1,0 +1,103 @@
+{
+  "hu_liu": {
+    "idioma": "inglés",
+    "atribucion": "Conservar los avisos originales y citar a Hu y Liu.",
+    "referencia": "Hu y Liu, Mining and Summarizing Customer Reviews, KDD 2004",
+    "exclusiones_variante_steam": [
+      "grind",
+      "refund"
+    ],
+    "archivos": {
+      "negative-words.txt": "9638ce543b219b98801a93063518c4e0793bd283c5e8e7460352a19fc14d3c05",
+      "positive-words.txt": "630f4d2c23e1f18177e67824b48d916bf160145a929ca183404a7a612f62102a"
+    }
+  },
+  "sentiwordnet": {
+    "archivo": "fuentes/Lexicons/Lexicons/SentiWordNet_3.0.0.txt",
+    "sha256": "4fc9b253a45a691f3264d6a5063861a6dfa82dc8c2f254802334650b7728762e",
+    "licencia": "CC BY-SA 4.0, según la cabecera del recurso",
+    "idioma": "inglés",
+    "agregacion": "Media de sentidos ponderada por 1/rango; suma por reseña con lema y POS.",
+    "rasgos": [
+      "suma_positiva",
+      "suma_negativa"
+    ],
+    "limitacion": "Se agregan sentidos sin desambiguación contextual; se consultan unigramas."
+  },
+  "emojis": {
+    "archivo": "recursos/emojis_sentimiento.tsv",
+    "sha256": "7121e5afe0424d6b42f80c2e0fefeb3b2d0f6571ce6b8aaa12e4cf3489f4120e",
+    "entradas": 5310,
+    "distribucion_polaridades": {
+      "positive": 184,
+      "sin_asignar": 5033,
+      "negative": 93
+    },
+    "polaridad": "Heurística manual; sin_asignar representa polaridad desconocida.",
+    "filas_train_con_emojis_o_emoticonos": 18
+  },
+  "ortografia": {
+    "distancia": 1,
+    "idioma": "en",
+    "protegidas": [
+      "bethesda",
+      "bruh",
+      "buff",
+      "buffed",
+      "cheater",
+      "cheaters",
+      "counter-strike",
+      "counterstrike",
+      "cs2",
+      "csgo",
+      "dlc",
+      "dota",
+      "elder",
+      "ez",
+      "fps",
+      "gameplay",
+      "gg",
+      "grind",
+      "grinding",
+      "grindy",
+      "iaa",
+      "laggy",
+      "lmao",
+      "lmfa",
+      "lol",
+      "matchmaking",
+      "minecraft",
+      "mmorpg",
+      "mod",
+      "modding",
+      "mods",
+      "multiplayer",
+      "nerf",
+      "nerfed",
+      "ngl",
+      "noob",
+      "noobs",
+      "npc",
+      "op",
+      "portal",
+      "pve",
+      "pvp",
+      "re-logic",
+      "roblox",
+      "rofl",
+      "roguelike",
+      "roguelite",
+      "rpg",
+      "scrolls",
+      "skyrim",
+      "smurf",
+      "smurfing",
+      "stardew",
+      "steam",
+      "tbh",
+      "terraria",
+      "valve"
+    ]
+  },
+  "negacion": "Conserva negadores; marcado opcional por ventana de tres palabras."
+}

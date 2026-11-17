@@ -169,7 +169,9 @@ def main():
     global RESULTADOS, MODELO_PKL, CONFIG_FINAL, _modelo
 
     parser = argparse.ArgumentParser(description="Interfaz de la Etapa 2 (análisis de sentimiento)")
-    parser.add_argument("--ampliado", action="store_true", help="Usa los experimentos ampliados.")
+    versiones = parser.add_mutually_exclusive_group()
+    versiones.add_argument("--ampliado", action="store_true", help="Usa los experimentos ampliados previos.")
+    versiones.add_argument("--fuentes", action="store_true", help="Usa los resultados con Hu y Liu y SentiWordNet de fuentes.")
     sub = parser.add_subparsers(dest="comando")
     b = sub.add_parser("buscar")
     b.add_argument("consulta")
@@ -182,8 +184,8 @@ def main():
     sub.add_parser("errores")
     args = parser.parse_args()
 
-    if args.ampliado:
-        RESULTADOS = CARPETA / "resultados_ampliados"
+    if args.ampliado or args.fuentes:
+        RESULTADOS = CARPETA / ("resultados_fuentes" if args.fuentes else "resultados_ampliados")
         MODELO_PKL = RESULTADOS / "modelo_final.pkl"
         CONFIG_FINAL = RESULTADOS / "config_final.json"
         _modelo = None

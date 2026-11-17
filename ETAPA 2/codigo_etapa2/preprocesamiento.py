@@ -41,7 +41,7 @@ from sklearn.svm import LinearSVC
 
 SEMILLA = 0
 CARPETA = Path(__file__).resolve().parent
-RECURSOS = CARPETA / "recursos"
+RECURSOS = CARPETA.parent / "fuentes" / "Lexicons" / "Lexicons" / "opinion-lexicon-English"
 
 
 # ---------------------------------------------------------------------------

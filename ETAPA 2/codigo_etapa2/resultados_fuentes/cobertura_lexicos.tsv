@@ -1,0 +1,4 @@
+recurso	entradas_con_polaridad_positiva	entradas_con_polaridad_negativa	unidad	filas_train_con_polaridad	proporcion_train_con_polaridad
+hu_liu	2003	4780	palabra	373	0.888095
+hu_liu_steam	2002	4779	palabra	372	0.885714
+sentiwordnet	25484	27165	lema y POS	419	0.997619

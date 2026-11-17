@@ -1,0 +1,11 @@
+document_id	label	review	observacion	veredicto	decision
+238204926	positive	I hate this game. It is the worst game. Yet I still play it everyday	Texto negativo ('hate', 'worst') pero dice que lo sigue jugando a diario	ambigua (humor típico de Steam)	se conserva
+238098693	positive	Worst fucking game of all time, yet I still play this shit	Insulta al juego pero admite que lo sigue jugando	ambigua (humor típico de Steam)	se conserva
+238183634	positive	LOVE THE RACISM AND HATE AND CHEATERS AND GAMBLERS AND MYSOGINISTS AND MY TERRIBLE GAMEPLAY AFTER 1000 HOURS	'LOVE THE RACISM AND HATE AND CHEATERS…' en mayúsculas: ironía	ambigua (sarcasmo)	se conserva
+238185225	positive	joined ranked lost a 1v4 on dust 2 got called the n word and votekicked 10/10 experience would reccomend.	Cuenta una mala experiencia y cierra con '10/10 would reccomend'	ambigua (sarcasmo)	se conserva
+238018081	positive	The character design is poor	'The character design is poor' con recomendación positiva	dudosa (texto y etiqueta no coinciden)	se conserva
+238215147	negative	Not good for mental health	'Not good for mental health': el léxico ve 'good', pero la negación lo invierte	correcta	se conserva
+238149266	negative	no fair in this game	'no fair in this game': 'fair' es positiva en el léxico, pero está negada	correcta	se conserva
+238093601	negative	After 5000 hours of Dota, I wouldn't recommend this game to others. Wasted a lot of time. You better go read Tarikh al-Rusul wa'l-Muluk by Ath-Thabari.	'I wouldn't recommend this game': negativa explícita	correcta	se conserva
+238110473	positive	The geame is hard in some pleses but its prety ok .	'The geame is hard in some pleses but its prety ok': errores de ortografía	correcta	se conserva
+238068615	positive	the cake is NOT a lie	'the cake is NOT a lie': referencia cultural a Portal; 'lie' es negativa en el léxico	correcta	se conserva

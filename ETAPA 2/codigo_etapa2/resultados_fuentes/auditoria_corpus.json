@@ -1,0 +1,35 @@
+{
+  "corpus": "opinions_raw_corpus.tsv",
+  "sha256_corpus": "a55d43c151df390de76d6dc3815b1631e6f5232c76c1a4ddc4add619722bb9f1",
+  "seleccion": "Todas las reseñas del corpus congelado de la Etapa I.",
+  "escala_original": "Steam voted_up booleano",
+  "mapeo": {
+    "true": "positive",
+    "false": "negative"
+  },
+  "mapeo_rating": {
+    "negative": "negative",
+    "positive": "positive"
+  },
+  "rating_faltante": 0,
+  "rating_fuera_del_mapeo": 0,
+  "distribucion_antes_de_particionar": {
+    "positive": 509,
+    "negative": 91
+  },
+  "ids_steam_sin_fuente": 0,
+  "ids_steam_con_voto_faltante_o_invalido": 0,
+  "discrepancias_con_steam": 0,
+  "proporcion_minoritaria": 0.15166666666666667,
+  "desbalance_relevante": true,
+  "criterio_desbalance": "Umbral exploratorio: probar tratamiento si la clase menor representa menos del 25 %.",
+  "particion": {
+    "train": 0.7,
+    "dev": 0.15,
+    "test": 0.15,
+    "estratificacion": "label, para conservar ambas clases y su proporción original",
+    "shuffle": true,
+    "random_state": 0
+  },
+  "revision_manual_etiquetas_train": 10
+}

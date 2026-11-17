@@ -1,0 +1,14 @@
+archivo	idioma	uso	justificacion	sha256
+Lexicons/Lexicons/LIWC2007.dic	es	referencia	Diccionario español con categorías como Yo, Nosotro y Negacio.	563b4e4d57d29420adfb4a8d40d52cc91798c9afe517a49fd349ea9300f12b1c
+Lexicons/Lexicons/SEL_full.txt	es	referencia	Léxico de emociones en español; el corpus Steam está en inglés.	907ff4c91890b645d0088dafcf1c9f7567e6e0e9868da43957749a1af5c8b650
+Lexicons/Lexicons/SentiWordNet_3.0.0.txt	en	usado	Sumas positiva y negativa por lema y POS.	4fc9b253a45a691f3264d6a5063861a6dfa82dc8c2f254802334650b7728762e
+Lexicons/Lexicons/opinion-lexicon-English/negative-words.txt	en	usado	Hu y Liu: conteo de palabras negativas.	9638ce543b219b98801a93063518c4e0793bd283c5e8e7460352a19fc14d3c05
+Lexicons/Lexicons/opinion-lexicon-English/positive-words.txt	en	usado	Hu y Liu: conteo de palabras positivas.	630f4d2c23e1f18177e67824b48d916bf160145a929ca183404a7a612f62102a
+Sentiment analysis/Sentiment analysis/Rest_Mex_2022.xlsx	es	referencia	Corpus de reseñas en español; Steam conserva su colección e IDs.	72674de14dc0bff8dcd4f04bc145e71af9f77d751922df3e4c6e8db974b58102
+Sentiment analysis/Sentiment analysis/polaridad_con_lexicon.py	es	adaptado	Se adapta la concatenación de rasgos de polaridad al espacio vectorial.	d982acdeaa3a109764dbe7ca597d61a057b4192c2edb0aaddbd168261a336ff4
+Sentiment analysis/Sentiment analysis/polaridad_con_ml.py	es	adaptado	Texto como X y etiqueta de la fuente como y, con separación previa.	fe70dfc005dc6cbaf9c4fe9d5a87713c19d0ea3f897a8b8cd748a01b9782b9bc
+Supervised text classificacion scripts/Supervised text classificacion scripts/clasificación_texto.py	en	adaptado	Conteos o TF-IDF, Naive Bayes y regresión logística.	ed253aca17114fd86f72763d845cc39344a9877aebae1e497ecba21d56435f69
+Supervised text classificacion scripts/Supervised text classificacion scripts/clasificación_texto_pipeline.py	en	adaptado	Transformaciones y clasificador dentro de Pipeline.	2db1db46622546c73ddae3d6c4ac539eb9ef1111d8ac2e5fecb6954e221290da
+Supervised text classificacion scripts/Supervised text classificacion scripts/clasificación_texto_pipeline_svd.py	en	adaptado	TruncatedSVD dentro del pipeline, ajustado solo en train.	8aa9a7bd0bcc9b7ac477e5725206485c96e95a11d25c7d5cf322bd27aace3494
+Unsupervised text clustering script/Unsupervised text clustering script/clustering_texto_pipeline_svd.py	en	referencia	Agrupamiento no supervisado; objetivo distinto de la tarea de sentimiento.	f0615cbfd708b30dd2396395d941ab0f71ee4e35c28a9495243a94626cb9d9b0
+Unsupervised topic modeling script/Unsupervised topic modeling script/lda_pipeline.py	en	referencia	Modelado de temas; objetivo distinto de la clasificación supervisada.	3f198de724b9c8f8231414d8203ae2dd0abbba6f434068ab86ab98de0e446c83
