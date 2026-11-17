@@ -1,0 +1,4 @@
+model	split	referencia	macro_f1_base	accuracy	macro_precision	macro_recall	macro_f1	precision_negative	recall_negative	f1_negative	support_negative	precision_positive	recall_positive	f1_positive	support_positive	confusion_matrix	delta_macro_f1	sha256_recurso
+MultinomialNB	dev	A003	0.649596	0.855556	0.695122	0.627872	0.649596	0.500000	0.307692	0.380952	13	0.890244	0.948052	0.918239	77	[[4, 9], [4, 73]]	0.000000	7121e5afe0424d6b42f80c2e0fefeb3b2d0f6571ce6b8aaa12e4cf3489f4120e
+LogisticRegression	dev	A030	0.735208	0.900000	0.869048	0.685814	0.735208	0.833333	0.384615	0.526316	13	0.904762	0.987013	0.944099	77	[[5, 8], [1, 76]]	0.000000	7121e5afe0424d6b42f80c2e0fefeb3b2d0f6571ce6b8aaa12e4cf3489f4120e
+LinearSVC	dev	A058	0.757412	0.900000	0.832317	0.717782	0.757412	0.750000	0.461538	0.571429	13	0.914634	0.974026	0.943396	77	[[6, 7], [2, 75]]	0.000000	7121e5afe0424d6b42f80c2e0fefeb3b2d0f6571ce6b8aaa12e4cf3489f4120e

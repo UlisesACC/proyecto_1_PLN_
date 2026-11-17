@@ -213,3 +213,17 @@ en sus cabeceras.
 | `transformaciones.tsv`, `cobertura_lexicos.tsv`, `recursos_linguisticos.json` | Evidencia reproducible de recursos y comparaciones de texto |
 | `distribucion_clases.tsv`, `revision_manual_etiquetas.tsv`, `entorno.json` | Distribución original, revisión de votos ambiguos y versiones |
 | `config_final.json`, `modelo_final.pkl` | Configuración congelada y pipeline entrenado |
+
+
+## Catálogo ampliado de emojis
+
+El inventario completo de la versión `emoji==2.16.0` está en
+[`recursos/emojis_sentimiento.tsv`](recursos/emojis_sentimiento.tsv).
+Tiene 5,244 entradas Unicode y 66 emoticonos. Cada entrada incluye nombre,
+polaridad, puntaje y criterio. Las instrucciones de edición y el alcance
+de las asignaciones están en [`recursos/EMOJIS.md`](recursos/EMOJIS.md).
+
+El código lee ese documento al entrenar y conserva el catálogo en el
+pipeline guardado. La comparación adicional se registra en
+`resultados_ampliados/comparacion_catalogo_emojis_dev.tsv`. La tabla de
+84 experimentos de la sección anterior describe la corrida previa.

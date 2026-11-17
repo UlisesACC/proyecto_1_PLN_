@@ -5,6 +5,7 @@ independiente y conserva la partición histórica de la Etapa II.
 """
 
 import argparse
+import csv
 import hashlib
 import json
 import pickle
@@ -63,11 +64,7 @@ MEJORAS = (
 LETRAS = re.compile(r"([a-z])\1{2,}")
 PALABRA_SIMPLE = re.compile(r"[a-z]{4,24}")
 PALABRA_LEXICO = re.compile(r"[a-z]+(?:[-'][a-z]+)*\+?")
-EMOTICON = re.compile(r"(?<!\w)(?:[:;=][\-^]?[)D(]|</?3)(?!\w)")
-EMOTICON_POS = {":)", ":-)", ";)", ";-)", ":D", ":-D", "=)", "=D", "<3"}
-EMOTICON_NEG = {":(", ":-(", ";(", ";-(", "=(", "</3"}
-EMOJI_POS = set(emoji.distinct_emoji_list("😀😃😄😁😊😍🥰😎🤩👍❤️❤💖🔥🎉"))
-EMOJI_NEG = set(emoji.distinct_emoji_list("😞😠😡🤬😢😭😤🤮👎💔😒"))
+RECURSO_EMOJIS = CARPETA / "recursos" / "emojis_sentimiento.tsv"
 PROTEGIDAS = frozenset("""
     steam valve dota portal counter-strike counterstrike skyrim elder scrolls bethesda
     terraria re-logic stardew minecraft roblox csgo cs2 fps pvp pve rpg mmorpg npc
@@ -282,13 +279,46 @@ def conteos_lexico(texto, recurso):
     return sum(t in positivas for t in tokens), sum(t in negativas for t in tokens)
 
 
-@lru_cache(maxsize=5000)
-def conteos_emojis(texto):
-    unicode = [entrada["emoji"] for entrada in emoji.emoji_list(texto)]
-    ascii = EMOTICON.findall(texto)
-    positivos = sum(e in EMOJI_POS for e in unicode) + sum(e in EMOTICON_POS for e in ascii)
-    negativos = sum(e in EMOJI_NEG for e in unicode) + sum(e in EMOTICON_NEG for e in ascii)
-    return positivos, negativos, len(unicode) + len(ascii) - positivos - negativos
+@lru_cache(maxsize=1)
+def cargar_emojis():
+    """Valida el catálogo editable. Reiniciar el proceso después de editarlo."""
+    with RECURSO_EMOJIS.open(encoding="utf-8", newline="") as archivo:
+        filas = list(csv.DictReader(archivo, delimiter="\t"))
+    simbolos = set()
+    for fila in filas:
+        simbolo = fila["simbolo"]
+        if not simbolo or simbolo in simbolos:
+            raise ValueError(f"Símbolo vacío o duplicado en {RECURSO_EMOJIS}: {simbolo!r}")
+        simbolos.add(simbolo)
+        if fila["tipo"] not in {"emoji", "emoticono"}:
+            raise ValueError(f"Tipo inválido para {simbolo!r}")
+        if fila["polaridad"] not in {"positive", "negative", "sin_asignar"}:
+            raise ValueError(f"Polaridad inválida para {simbolo!r}")
+        esperado = {"positive": "1", "negative": "-1", "sin_asignar": ""}[fila["polaridad"]]
+        if fila["puntaje"] != esperado:
+            raise ValueError(f"Puntaje incompatible con la polaridad de {simbolo!r}")
+    return tuple((f["simbolo"], f["tipo"], f["polaridad"]) for f in filas)
+
+
+@lru_cache(maxsize=8)
+def preparar_catalogo_emojis(catalogo):
+    polaridades = {simbolo: polaridad for simbolo, _, polaridad in catalogo}
+    emoticonos = [simbolo for simbolo, tipo, _ in catalogo if tipo == "emoticono"]
+    alternativas = "|".join(re.escape(s) for s in sorted(emoticonos, key=lambda s: (-len(s), s)))
+    patron = re.compile(r"(?<!\w)(?:" + alternativas + r")(?!\w)") if alternativas else None
+    return polaridades, patron
+
+
+def conteos_emojis(texto, catalogo=None):
+    """Cuenta ocurrencias completas, incluidas variantes y secuencias ZWJ."""
+    if catalogo is None:
+        catalogo = cargar_emojis()
+    polaridades, patron = preparar_catalogo_emojis(catalogo)
+    simbolos = [entrada["emoji"] for entrada in emoji.emoji_list(texto)]
+    if patron is not None:
+        simbolos.extend(patron.findall(texto))
+    conteos = Counter(polaridades.get(s, "sin_asignar") for s in simbolos)
+    return conteos["positive"], conteos["negative"], conteos["sin_asignar"]
 
 
 class RasgosSentimiento(TransformerMixin, BaseEstimator):
@@ -297,12 +327,14 @@ class RasgosSentimiento(TransformerMixin, BaseEstimator):
         self.emojis = emojis
 
     def fit(self, X, y=None):
+        # El pickle conserva la versión exacta usada durante el entrenamiento.
+        self.catalogo_emojis_ = cargar_emojis() if self.emojis else ()
         return self
 
     def transform(self, X):
         return np.asarray([
             (conteos_lexico(texto, self.recurso) if self.recurso else ())
-            + (conteos_emojis(texto) if self.emojis else ())
+            + (conteos_emojis(texto, self.catalogo_emojis_) if self.emojis else ())
             for texto in X
         ], dtype=float)
 
@@ -548,9 +580,11 @@ def guardar_auditoria(salida, datos, train, auditoria):
             },
         },
         "emojis": {
-            "positivos": sorted(EMOJI_POS), "negativos": sorted(EMOJI_NEG),
-            "emoticonos_positivos": sorted(EMOTICON_POS),
-            "emoticonos_negativos": sorted(EMOTICON_NEG),
+            "archivo": str(RECURSO_EMOJIS.relative_to(CARPETA)),
+            "sha256": hashlib.sha256(RECURSO_EMOJIS.read_bytes()).hexdigest(),
+            "entradas": len(cargar_emojis()),
+            "distribucion_polaridades": dict(Counter(f[2] for f in cargar_emojis())),
+            "polaridad": "Heurística manual; sin_asignar representa polaridad desconocida.",
             "filas_train_con_emojis_o_emoticonos": int(emojis_train.any(axis=1).sum()),
         },
         "ortografia": {"distancia": 1, "idioma": "en", "protegidas": sorted(PROTEGIDAS)},
