@@ -53,7 +53,14 @@ def cargar_modelo():
         datos = pd.read_csv(RESULTADOS / "labeled_documents.tsv", sep="\t", dtype=str,
                             keep_default_na=False)
         train_dev = datos[datos["split"].isin(["train", "dev"])]
-        _modelo = construir_pipeline(cfg).fit(train_dev["text"], train_dev["label"])
+        if "mejoras" in cfg:
+            from experimentos_ampliados import Configuracion, ajustar
+
+            cfg["mejoras"] = tuple(cfg["mejoras"])
+            cfg["ngramas"] = tuple(cfg["ngramas"])
+            _modelo = ajustar(Configuracion(**cfg), train_dev)
+        else:
+            _modelo = construir_pipeline(cfg).fit(train_dev["text"], train_dev["label"])
     return _modelo
 
 
@@ -159,7 +166,10 @@ def menu():
 
 
 def main():
+    global RESULTADOS, MODELO_PKL, CONFIG_FINAL, _modelo
+
     parser = argparse.ArgumentParser(description="Interfaz de la Etapa 2 (análisis de sentimiento)")
+    parser.add_argument("--ampliado", action="store_true", help="Usa los experimentos ampliados.")
     sub = parser.add_subparsers(dest="comando")
     b = sub.add_parser("buscar")
     b.add_argument("consulta")
@@ -171,6 +181,14 @@ def main():
     sub.add_parser("metricas")
     sub.add_parser("errores")
     args = parser.parse_args()
+
+    if args.ampliado:
+        RESULTADOS = CARPETA / "resultados_ampliados"
+        MODELO_PKL = RESULTADOS / "modelo_final.pkl"
+        CONFIG_FINAL = RESULTADOS / "config_final.json"
+        _modelo = None
+        if not CONFIG_FINAL.exists():
+            parser.error("Primero ejecuta python experimentos_ampliados.py")
 
     if args.comando == "buscar":
         buscar(args.consulta, args.sentimiento, args.top, args.ancho)

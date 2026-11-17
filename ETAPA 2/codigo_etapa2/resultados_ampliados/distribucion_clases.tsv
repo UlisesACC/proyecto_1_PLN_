@@ -1,0 +1,4 @@
+split	negative	positive	total	proporcion_negative
+train	64	356	420	0.152381
+dev	13	77	90	0.144444
+test	14	76	90	0.155556

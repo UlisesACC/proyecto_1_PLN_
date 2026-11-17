@@ -1,0 +1,5 @@
+experiment_id	model	split	accuracy	macro_precision	macro_recall	macro_f1	precision_negative	recall_negative	f1_negative	support_negative	precision_positive	recall_positive	f1_positive	support_positive	confusion_matrix
+A003	MultinomialNB	dev	0.855556	0.695122	0.627872	0.649596	0.500000	0.307692	0.380952	13	0.890244	0.948052	0.918239	77	[[4, 9], [4, 73]]
+A041	LogisticRegression	dev	0.911111	0.952941	0.692308	0.753086	1.000000	0.384615	0.555556	13	0.905882	1.000000	0.950617	77	[[5, 8], [0, 77]]
+A069	LinearSVC	dev	0.922222	0.958333	0.730769	0.794050	1.000000	0.461538	0.631579	13	0.916667	1.000000	0.956522	77	[[6, 7], [0, 77]]
+test	LinearSVC	test	0.844444	0.698718	0.674812	0.685315	0.500000	0.428571	0.461538	14	0.897436	0.921053	0.909091	76	[[6, 8], [6, 70]]

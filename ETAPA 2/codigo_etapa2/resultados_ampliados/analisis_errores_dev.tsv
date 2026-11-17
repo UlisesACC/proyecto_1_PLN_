@@ -1,0 +1,61 @@
+document_id	gold_label	predicted_label	categoria	explicacion	review	modelos_que_fallan
+236968925	negative	positive	rechazo implícito	La frase atribuye una motivación política al jugador. La valoración negativa requiere inferir una implicación que los conteos no representan.	this is the game you play when you wanna support politicians of other countries	MultinomialNB, LogisticRegression, LinearSVC
+237056135	negative	positive	negación y nombre de personaje	Not a good y dumb expresan rechazo. La ventana marca a good game pero no resuelve la opinión global. La corrección cambia JackO por jack.	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	MultinomialNB, LogisticRegression, LinearSVC
+237185186	negative	positive	repetición expresiva	Las repeticiones no consecutivas de counter implican monotonía aunque no hay un término claramente negativo.	counter after counter after counter after counter	MultinomialNB, LogisticRegression, LinearSVC
+237396449	negative	positive	sentimiento mixto y jerga	Recommend aporta una señal positiva directa y janky y stiff describen una experiencia negativa. La corrección ortográfica cambia janky por hanky.	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	MultinomialNB, LogisticRegression, LinearSVC
+237427476	positive	negative	jerga y nombre propio	Balanced es un elogio y nerfed una queja puntual sobre A.B.A. El voto se refiere al juego completo.	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	MultinomialNB
+237808441	positive	negative	juego de palabras	Guilt my gears alude al nombre Guilty Gear. La señal de recomendación es implícita y la lectura literal de guilt es ambigua.	I guilt my gears pretty regularly.	MultinomialNB
+238004412	positive	negative	recuerdo positivo con queja	El recuerdo comienza con Love, pero luego plantea dudas sobre la cuenta y la desaparición del juego. Las dos señales compiten.	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	MultinomialNB
+238070047	negative	positive	cita y referencia cultural	La reseña imita un diálogo y repite el nombre del producto. Su extensión diluye la señal de did not care frente al vocabulario no evaluativo.	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	MultinomialNB, LogisticRegression, LinearSVC
+238087921	negative	positive	contexto de dominio	El voto negativo se apoya en una queja localizada sobre la región de juego. Sea requiere contexto y bad es casi la única señal negativa explícita.	too many chinese players in Sea which is bad	MultinomialNB, LogisticRegression, LinearSVC
+238132143	negative	positive	sentimiento mixto y negación	Good game convive con didn't like y wasn't that cozy. La ventana de negación no captura el contraste global entre ambas cláusulas.	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	MultinomialNB, LogisticRegression, LinearSVC
+238158078	negative	positive	sarcasmo y ortografía expresiva	La invitación es irónica y la queja usa SH*TSHOW, cuya censura rompe el término que un vectorizador podría reconocer.	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	MultinomialNB, LogisticRegression
+238174761	positive	negative	sentimiento mixto	El voto es positivo, pero el texto se centra en hackers y sanciones. Palabras como hate describen a los hackers y pueden sesgar la clasificación.	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	MultinomialNB
+238187650	negative	positive	negación	Not my kind of game expresa una preferencia negativa sin un adjetivo peyorativo. El marcado corto asigna el alcance a tokens con poca señal aislada.	not my kind of game	MultinomialNB

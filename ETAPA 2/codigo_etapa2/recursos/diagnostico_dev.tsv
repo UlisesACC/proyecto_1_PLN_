@@ -1,0 +1,14 @@
+document_id	categoria	explicacion
+238174761	sentimiento mixto	El voto es positivo, pero el texto se centra en hackers y sanciones. Palabras como hate describen a los hackers y pueden sesgar la clasificación.
+238158078	sarcasmo y ortografía expresiva	La invitación es irónica y la queja usa SH*TSHOW, cuya censura rompe el término que un vectorizador podría reconocer.
+238087921	contexto de dominio	El voto negativo se apoya en una queja localizada sobre la región de juego. Sea requiere contexto y bad es casi la única señal negativa explícita.
+238004412	recuerdo positivo con queja	El recuerdo comienza con Love, pero luego plantea dudas sobre la cuenta y la desaparición del juego. Las dos señales compiten.
+238187650	negación	Not my kind of game expresa una preferencia negativa sin un adjetivo peyorativo. El marcado corto asigna el alcance a tokens con poca señal aislada.
+238132143	sentimiento mixto y negación	Good game convive con didn't like y wasn't that cozy. La ventana de negación no captura el contraste global entre ambas cláusulas.
+238070047	cita y referencia cultural	La reseña imita un diálogo y repite el nombre del producto. Su extensión diluye la señal de did not care frente al vocabulario no evaluativo.
+237808441	juego de palabras	Guilt my gears alude al nombre Guilty Gear. La señal de recomendación es implícita y la lectura literal de guilt es ambigua.
+237427476	jerga y nombre propio	Balanced es un elogio y nerfed una queja puntual sobre A.B.A. El voto se refiere al juego completo.
+237396449	sentimiento mixto y jerga	Recommend aporta una señal positiva directa y janky y stiff describen una experiencia negativa. La corrección ortográfica cambia janky por hanky.
+237185186	repetición expresiva	Las repeticiones no consecutivas de counter implican monotonía aunque no hay un término claramente negativo.
+237056135	negación y nombre de personaje	Not a good y dumb expresan rechazo. La ventana marca a good game pero no resuelve la opinión global. La corrección cambia JackO por jack.
+236968925	rechazo implícito	La frase atribuye una motivación política al jugador. La valoración negativa requiere inferir una implicación que los conteos no representan.

@@ -1,0 +1,1767 @@
+document_id	gold_label	predicted_label	prediccion_base	model	experiment_id	referencia	cambio	efecto	modo	review	texto_normalizado
+238174761	positive	negative	negative	MultinomialNB	A013	A003	negacion	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not NEG_wan NEG_na NEG_play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not NEG_get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A013	A003	negacion	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	not my kind of game	not NEG_kind game
+238132143	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not NEG_like NEG_part skin peeled not NEG_cozy
+238070047	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not NEG_care NEG_stardew valley not NEG_care NEG_stardew valley uhg even say not NEG_like- not NEG_like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never NEG_see- NEG_dialog relationships towns people know l uh eh fine writing not NEG_like NEG_game not not- could not NEG_get explain not NEG_like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not NEG_even NEG_get not NEG_even NEG_finish game never NEG_even NEG_seen ending never NEG_seen NEG_ending well say not NEG_like not NEG_even NEG_given chance
+237808441	positive	negative	negative	MultinomialNB	A013	A003	negacion	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237524577	negative	positive	negative	MultinomialNB	A013	A003	negacion	introducido	ablacion	i cannot get my ping down below 80ms with constant freezing and disconnection while wired and having 320mbpsdown and 35mbps upload I'm wired not Wi-Fi and I've done all possible fixes to try and relive some of my guilty gear xx days but nothing works this game has some of the worst networking of any modern fighting game its actually sad id rather play femboy futa house ngl	not NEG_get NEG_ping 80ms constant freezing disconnection wired 320mbpsdown 35mbps upload wired not NEG_wi-fi done possible fixes try relive guilty gear xx days nothing NEG_works NEG_game worst networking modern fighting game actually sad id rather play femboy futa house ngl
+237427476	positive	positive	negative	MultinomialNB	A013	A003	negacion	corregido	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not NEG_good NEG_game design idea back forth thing use moves dumb idea not NEG_see added units cool ranges good jacko thing good music would like units 4 not NEG_cost NEG_25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A013	A003	negacion	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A014	A003	hu_liu	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A015	A003	hu_liu_steam	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A016	A003	emojis	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A016	A003	emojis	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A016	A003	emojis	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A016	A003	emojis	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A016	A003	emojis	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A017	A003	ortografia	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh show
+238087921	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A017	A003	ortografia	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever getting spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A017	A003	ortografia	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A017	A003	ortografia	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite hanky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jack thing good music would like units 4 not cost 25 people like game design system brain naruto storm 4 better
+236968925	negative	positive	positive	MultinomialNB	A017	A003	ortografia	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A018	A003	letras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A019	A003	palabras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A020	A003	emojis + hu_liu	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh show
+238087921	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever getting spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite hanky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jack thing good music would like units 4 not cost 25 people like game design system brain naruto storm 4 better
+236968925	negative	positive	positive	MultinomialNB	A021	A003	letras_repetidas + ortografia	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A022	A003	letras_repetidas + palabras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238174761	positive	negative	negative	MultinomialNB	A003	A003	N2	persiste	seleccionado	God I hate those hackers ruining the game.. like what do you mean I got a global ban for 3-5 days!.. this happened three times now! I dont wanna play dota 2 and be miserable.	god hate hackers ruining game like mean got global ban 3-5 days happened three times not wan na play dota 2 miserable
+238158078	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	want mentally stable life not get already welcome sh tshow
+238087921	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	too many chinese players in Sea which is bad	many chinese players sea bad
+238004412	positive	negative	negative	MultinomialNB	A003	A003	N2	persiste	seleccionado	Love this game when I played as a kid. I dont own it on steam, so idk why I can leave a review. What if They removed it from my account!!>	love game played kid not steam idk leave review removed account
+238187650	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	not my kind of game	not kind game
+238132143	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	good game not like part skin peeled not cozy
+238070047	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since gon na die one secret feel share not care stardew valley not care stardew valley uhg even say not like- not like man good like perfect game i- everyone always says whenever say like oh everyone always says- customization farm relaxing pace mean listen- never see- dialog relationships towns people know l uh eh fine writing not like game not not- could not get explain not like insists upon insists upon even mean cause valid point make insisting takes forever gettin spend nearly six half hours then- know not even get not even finish game never even seen ending never seen ending well say not like not even given chance
+237808441	positive	negative	negative	MultinomialNB	A003	A003	N2	persiste	seleccionado	I guilt my gears pretty regularly.	guilt gears pretty regularly
+237427476	positive	negative	negative	MultinomialNB	A003	A003	N2	persiste	seleccionado	"this game is very balanced except for A.B.A. she needs to be nerfed ngl
+"	game balanced except a.b.a needs nerfed ngl
+237396449	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	looking 2d fighter would recommend game opinion quite janky feels stiff almost
+237185186	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	counter after counter after counter after counter	counter counter counter counter
+237056135	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	not good game design idea back forth thing use moves dumb idea not see added units cool ranges good jacko thing good music would like units 4 not cost 25 people like game design system brain naruto strom 4 better
+236968925	negative	positive	positive	MultinomialNB	A003	A003	N2	persiste	seleccionado	this is the game you play when you wanna support politicians of other countries	game play wan na support politicians countries
+238158078	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh tshow
+238137688	positive	negative	negative	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A042	A030	hu_liu	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh tshow
+238137688	positive	negative	negative	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A043	A030	hu_liu_steam	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh tshow
+238137688	positive	negative	negative	LogisticRegression	A044	A030	emojis	persiste	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A044	A030	emojis	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh show
+238147936	negative	positive	negative	LogisticRegression	A045	A030	ortografia	introducido	ablacion	"A piece of fucking shit 2, featuring a ""50% system."" It’s impossible to avoid running into fucking boosters or brain-dead teammates after winning a few games in a row. No matter how many times they update the ""game,"" this problem is here to stay.
+SO DON'T PLAY IT."	a piece of fucking shit 2 featuring a 50 system it s impossible to avoid running into fucking boosters or brain-dead teammates after winning a few games in a row no matter how many times they update the game this problem is here to stay so do not play it
+238137688	positive	positive	negative	LogisticRegression	A045	A030	ortografia	corregido	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever getting in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite hanky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jack the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto storm 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A045	A030	ortografia	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh tshow
+238137688	positive	negative	negative	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A046	A030	letras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh tshow
+238137688	positive	negative	negative	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A047	A030	palabras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not NEG_get NEG_into NEG_it if you already are then welcome to the sh tshow
+238137688	positive	positive	negative	LogisticRegression	A048	A030	hu_liu + negacion	corregido	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not NEG_expect NEG_any NEG_other players to help you you are expected to put time into youtube videos and learn the game is not NEG_for NEG_the NEG_weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not NEG_like NEG_the NEG_part where their skin peeled off it was not NEG_that NEG_cozy
+238070047	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not NEG_care NEG_for NEG_stardew valley what did not NEG_care NEG_for NEG_stardew valley uhg how can you even say that did not NEG_like- NEG_did not NEG_like NEG_it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never NEG_see- NEG_the NEG_dialog and relationships with the towns people i know l uh eh fine writing did not NEG_like NEG_the NEG_game why not did not- could not NEG_get NEG_into NEG_it explain yourself what did not NEG_you NEG_like NEG_about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not NEG_even NEG_get NEG_through it i can not NEG_even NEG_finish NEG_the game i 've never NEG_even NEG_seen NEG_the ending you 've never NEG_seen NEG_the NEG_ending well how can you say you do not NEG_like NEG_it NEG_if you have not NEG_even NEG_given NEG_it a chance
+237396449	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not NEG_a NEG_good NEG_game design idea the back and forth thing to use moves is such a dumb idea i can not NEG_see NEG_why NEG_they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not NEG_cost NEG_25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A048	A030	hu_liu + negacion	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh show
+238147936	negative	positive	negative	LogisticRegression	A049	A030	letras_repetidas + ortografia	introducido	ablacion	"A piece of fucking shit 2, featuring a ""50% system."" It’s impossible to avoid running into fucking boosters or brain-dead teammates after winning a few games in a row. No matter how many times they update the ""game,"" this problem is here to stay.
+SO DON'T PLAY IT."	a piece of fucking shit 2 featuring a 50 system it s impossible to avoid running into fucking boosters or brain-dead teammates after winning a few games in a row no matter how many times they update the game this problem is here to stay so do not play it
+238137688	positive	positive	negative	LogisticRegression	A049	A030	letras_repetidas + ortografia	corregido	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever getting in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite hanky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jack the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto storm 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A049	A030	letras_repetidas + ortografia	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not get into it if you already are then welcome to the sh tshow
+238137688	positive	negative	negative	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not expect any other players to help you you are expected to put time into youtube videos and learn the game is not for the weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+237396449	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A050	A030	letras_repetidas + palabras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not NEG_get NEG_into NEG_it if you already are then welcome to the sh tshow
+238137688	positive	positive	negative	LogisticRegression	A041	A030	negacion	corregido	seleccionado	Dota is fun but the community can be pretty harsh for new players. Regardless of that the game is fun. Just don't expect any other players to help you. You are expected to put time into YouTube videos and learn. The game is not for the weak or easily offended that is for sure.	dota is fun but the community can be pretty harsh for new players regardless of that the game is fun just do not NEG_expect NEG_any NEG_other players to help you you are expected to put time into youtube videos and learn the game is not NEG_for NEG_the NEG_weak or easily offended that is for sure
+238087921	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238132143	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not NEG_like NEG_the NEG_part where their skin peeled off it was not NEG_that NEG_cozy
+238070047	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not NEG_care NEG_for NEG_stardew valley what did not NEG_care NEG_for NEG_stardew valley uhg how can you even say that did not NEG_like- NEG_did not NEG_like NEG_it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never NEG_see- NEG_the NEG_dialog and relationships with the towns people i know l uh eh fine writing did not NEG_like NEG_the NEG_game why not did not- could not NEG_get NEG_into NEG_it explain yourself what did not NEG_you NEG_like NEG_about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not NEG_even NEG_get NEG_through it i can not NEG_even NEG_finish NEG_the game i 've never NEG_even NEG_seen NEG_the ending you 've never NEG_seen NEG_the NEG_ending well how can you say you do not NEG_like NEG_it NEG_if you have not NEG_even NEG_given NEG_it a chance
+237396449	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not NEG_a NEG_good NEG_game design idea the back and forth thing to use moves is such a dumb idea i can not NEG_see NEG_why NEG_they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not NEG_cost NEG_25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LogisticRegression	A041	A030	negacion	persiste	seleccionado	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A070	A058	hu_liu	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A070	A058	hu_liu	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A070	A058	hu_liu	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A071	A058	hu_liu_steam	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A072	A058	emojis	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A072	A058	emojis	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A072	A058	emojis	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A073	A058	ortografia	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever getting in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A073	A058	ortografia	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite hanky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jack the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto storm 4 better than this
+236968925	negative	positive	positive	LinearSVC	A073	A058	ortografia	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A074	A058	letras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A075	A058	palabras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238158078	negative	positive	negative	LinearSVC	A076	A058	hu_liu + negacion	introducido	ablacion	If you want to be mentally stable and have a life , dont get into it, if you already are then welcome to the SH*TSHOW !	if you want to be mentally stable and have a life do not NEG_get NEG_into NEG_it if you already are then welcome to the sh tshow
+238087921	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	positive	negative	LinearSVC	A076	A058	hu_liu + negacion	corregido	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not NEG_like NEG_the NEG_part where their skin peeled off it was not NEG_that NEG_cozy
+238070047	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not NEG_care NEG_for NEG_stardew valley what did not NEG_care NEG_for NEG_stardew valley uhg how can you even say that did not NEG_like- NEG_did not NEG_like NEG_it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never NEG_see- NEG_the NEG_dialog and relationships with the towns people i know l uh eh fine writing did not NEG_like NEG_the NEG_game why not did not- could not NEG_get NEG_into NEG_it explain yourself what did not NEG_you NEG_like NEG_about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not NEG_even NEG_get NEG_through it i can not NEG_even NEG_finish NEG_the game i 've never NEG_even NEG_seen NEG_the ending you 've never NEG_seen NEG_the NEG_ending well how can you say you do not NEG_like NEG_it NEG_if you have not NEG_even NEG_given NEG_it a chance
+238127524	positive	positive	negative	LinearSVC	A076	A058	hu_liu + negacion	corregido	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not NEG_many NEG_bugs NEG_considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not NEG_a NEG_good NEG_game design idea the back and forth thing to use moves is such a dumb idea i can not NEG_see NEG_why NEG_they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not NEG_cost NEG_25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A076	A058	hu_liu + negacion	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever getting in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite hanky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jack the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto storm 4 better than this
+236968925	negative	positive	positive	LinearSVC	A077	A058	letras_repetidas + ortografia	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	negative	negative	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not like the part where their skin peeled off it was not that cozy
+238070047	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not care for stardew valley what did not care for stardew valley uhg how can you even say that did not like- did not like it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never see- the dialog and relationships with the towns people i know l uh eh fine writing did not like the game why not did not- could not get into it explain yourself what did not you like about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not even get through it i can not even finish the game i 've never even seen the ending you 've never seen the ending well how can you say you do not like it if you have not even given it a chance
+238127524	positive	negative	negative	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not many bugs considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not a good game design idea the back and forth thing to use moves is such a dumb idea i can not see why they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not cost 25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A078	A058	letras_repetidas + palabras_repetidas	persiste	ablacion	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
+238087921	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	too many chinese players in Sea which is bad	too many chinese players in sea which is bad
+238009547	positive	positive	negative	LinearSVC	A069	A058	negacion	corregido	seleccionado	if you wanna lose your mental health play this game.	if you wan na lose your mental health play this game
+238132143	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	it was a good game but i didn't like the part where their skin peeled off. It wasn't that cozy..	it was a good game but i did not NEG_like NEG_the NEG_part where their skin peeled off it was not NEG_that NEG_cozy
+238070047	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	"Well, since we're all gonna die, there's one more secret I feel I have to share with you
+
+I did not care for ""Stardew Valley""
+
+What?
+
+Did not care for ""Stardew Valley"".
+
+Uhg.
+
+How can you even say that?
+
+Didn't like- Didn't like it.
+
+Man it's so good. It's like the perfect game.
+
+I- This is what everyone always says. Whenever they say, it's like, ""Oh my..."" Everyone always says-
+
+Customization of your farm & relaxing pace, I mean,
+
+Listen-
+
+You never see- the dialog and relationships with the towns people?!
+
+I know, l uh eh, FINE writing , did not like the game.
+
+Why not?
+
+Did not- couldn't get into it.
+
+Explain yourself. What didn't you like about it?
+
+It insists upon itself.
+
+What?
+
+It insists upon itself.
+
+What does that even mean?
+
+'CAUSE IT HAS A VALID POINT TO MAKE, IT'S INSISTING!
+
+It takes forever gettin' in. They spend nearly six and a half hours, and then- You know, I can't even get through it, I can't even finish the game. I've never even seen the ending.
+
+YOU'VE NEVER SEEN THE ENDING?!
+
+Well, how can you say you don't like it if you haven't even given it a chance?"	well since we 're all gon na die there 's one more secret i feel i have to share with you i did not NEG_care NEG_for NEG_stardew valley what did not NEG_care NEG_for NEG_stardew valley uhg how can you even say that did not NEG_like- NEG_did not NEG_like NEG_it man it 's so good it 's like the perfect game i- this is what everyone always says whenever they say it 's like oh my everyone always says- customization of your farm relaxing pace i mean listen- you never NEG_see- NEG_the NEG_dialog and relationships with the towns people i know l uh eh fine writing did not NEG_like NEG_the NEG_game why not did not- could not NEG_get NEG_into NEG_it explain yourself what did not NEG_you NEG_like NEG_about it it insists upon itself what it insists upon itself what does that even mean cause it has a valid point to make it 's insisting it takes forever gettin in they spend nearly six and a half hours and then- you know i can not NEG_even NEG_get NEG_through it i can not NEG_even NEG_finish NEG_the game i 've never NEG_even NEG_seen NEG_the ending you 've never NEG_seen NEG_the NEG_ending well how can you say you do not NEG_like NEG_it NEG_if you have not NEG_even NEG_given NEG_it a chance
+238127524	positive	positive	negative	LinearSVC	A069	A058	negacion	corregido	seleccionado	Well designed and beautiful looking game, not many bugs considering the complexity of it	well designed and beautiful looking game not NEG_many NEG_bugs NEG_considering the complexity of it
+237396449	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	If you are looking for a 2d fighter I would recommend this game! But in my opinion, it is quite janky and feels stiff almost.	if you are looking for a 2d fighter i would recommend this game but in my opinion it is quite janky and feels stiff almost
+237185186	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	counter after counter after counter after counter	counter after counter after counter after counter
+237056135	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	this was just not a good game design idea. the back and forth thing to use moves is such a dumb idea I can't see why they added it. The units are cool but it ranges from who is good and who is jacko. The only thing good is the music, I would like the units more if 4 of them didnt cost 25$. Some people like this game design system and other's have a brain. why is naruto strom 4 better than this?	this was just not NEG_a NEG_good NEG_game design idea the back and forth thing to use moves is such a dumb idea i can not NEG_see NEG_why NEG_they added it the units are cool but it ranges from who is good and who is jacko the only thing good is the music i would like the units more if 4 of them did not NEG_cost NEG_25 some people like this game design system and other 's have a brain why is naruto strom 4 better than this
+236968925	negative	positive	positive	LinearSVC	A069	A058	negacion	persiste	seleccionado	this is the game you play when you wanna support politicians of other countries	this is the game you play when you wan na support politicians of other countries
